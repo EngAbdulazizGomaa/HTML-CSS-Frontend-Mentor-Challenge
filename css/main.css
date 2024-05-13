@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+/* Start Variables */
+:root {
+    /* Praimary Colors */
+    --Light-Red:hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+    /* End Praimary Colors */
+    /* Gradients Colors */
+    --Light-slate-blue-background: hsl(252, 100%, 67%);
+    --Light-royal-blue-background: hsl(241, 81%, 54%);
+    --Violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --Persian-blue-circle: hsla(241, 72%, 46%, 0);
+    /* End Gradients Colors */
+    /* Naturl Colors */
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+    /* End Naturl Colors */
+
+}
+/* End Variables */
+/* Start Global Roles */
+* {
+    -webkit-box-sizing: border-box;
+    -Moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: normal;
+}
+.container {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Start Cards */
+.cards{
+    width:800px;
+    height: 500px;
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+   border-radius: 20px;
+   box-shadow: 11px 15px 20px 2px #E7EDFB;
+   margin: 0 auto;
+ 
+}
+/* End Cards */
+/* End Global Roles */
+/* Start Blue Card */
+.blue-card {
+    background-image: linear-gradient(to top ,var(--Light-royal-blue-background),var(--Light-slate-blue-background));
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.blue-card h3 {
+margin: 20px 10px;
+padding: 20px;
+color: var(--Light-lavender);
+font-size: 20px;
+letter-spacing: 1px;
+}
+.blue-card .circle {
+    /* background-image: linear-gradient(to top,var(--Violet-blue-circle),); */
+    background-color: var(--Violet-blue-circle);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+.blue-card .circle h2 {
+    padding-top: 40px;
+    color: var(--White);
+    font-size: 80px;
+}
+.blue-card .circle p {
+    color: #8779FF;
+    font-weight: bold;
+}
+.blue-card>h2 {
+    color: white;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.blue-card>p{
+    max-width: 250px;
+    margin: 0 auto;
+    color: var(--Light-lavender);
+    font-size: 18px;
+}
+/* End Blue Card */
+/* Start White Card */
+.white-card {
+    background-color: white;
+    width:50%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px;
+}
+.white-card .math {
+    color: #9D99A0;
+
+}
+.white-card .reaction {
+    height: 50px;  
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    background-color: #FFF6F5;
+}
+.white-card .reaction span:nth-child(2) {
+    color:#FF5555 ;
+}
+.white-card img{
+    width:20px ;
+}
+.white-card .image{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    
+
+}
+.white-card p{
+    margin-right: 20px;
+}
+.white-card .image span {
+    font-size: 18px;
+    font-weight: bold;
+    width: 25px;
+}
+.white-card .memory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;  
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #FFFBF2;
+}
+.white-card .memory span:nth-child(2){
+    color: #FFB21E;
+}
+.white-card .verbal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;  
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #F2FAFA;
+    
+}
+.white-card .verbal span:nth-child(2){
+    color:#00BB8F;
+}
+.white-card .visual {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;  
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #F3F3FD;
+    
+}
+.white-card .visual span:nth-child(2) {
+    color:#1125D6;
+}
+.white-card button{
+    width: 250px;
+    height: 40px;
+    margin-left: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to top ,var(--Light-royal-blue-background),var(--Light-slate-blue-background));
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+/* End White Card */
+/* * small */ 
